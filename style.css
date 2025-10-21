@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    color: white;
+    font-size: 21px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #eee;
+}
+
+/* Hero-section */
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 65px 15px;
+    color: #eee;
+}
+
+.hero-img {
+    width: 500px;
+    height: 270px;
+}
+
+.hero-text {
+    margin-right: 12px;
+    width: 320px;
+}
+
+.hero-text h1 {
+    margin-bottom: 5px;
+}
+
+.hero-text p {
+    margin-bottom: 9px;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    color: whitesmoke;
+    padding: 9px 19px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+/* about-section */
+
+.about-section {
+    /* display: flex; */
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 21px 0;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    padding: 25px 300px;
+}
+
+.card {
+    width: max-content;
+    text-align: center;
+}
+
+/* quote-section */
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-section p {
+    font-style: italic;
+    color: #1F2937;
+    font-size: 30px;
+    font-weight: 300;
+    width: 600px;
+}
+
+strong {
+    margin-top: -24px;
+    margin-left: 275px;
+    font-size: 30px;
+}
+
+/* Call-section */
+
+.call-section{
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 33px 227px;
+    border-radius: 6px;
+    padding: 15px;
+}
+.call-card{
+    display: flex;
+    flex-direction: column;
+    color: wheat;
+    padding: 16px 89px;
+}
+
+.call-title{
+    font-weight: bolder;
+}
+
+.call-button{
+    border: 1px solid whitesmoke;
+    padding: 9px 21px;
+}
+
+/* Footer */
+
+.footer{
+    background-color: #1F2937;
+    padding: 33px;
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
